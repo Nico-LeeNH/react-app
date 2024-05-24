@@ -1,12 +1,10 @@
-// import ListGroup from "./component/ListGroup";
-import  Alert  from "./component/Alert";
+import Button from "./component/Button";
 
+// import ListGroup from "./component/ListGroup";
 function App(){
   return (
-    <div className="alert alert-primary">
-      <Alert>
-    Hello <span>World</span>
-        </Alert>
+    <div>
+      <Button color="primary" onClick={()=>console.log('clicked')}>My button</Button>
     </div>
   );
 
